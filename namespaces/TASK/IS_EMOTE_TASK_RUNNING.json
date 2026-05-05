@@ -1,15 +1,15 @@
 {
     "0xCF9B71C0AF824036": {
         "name": "IS_EMOTE_TASK_RUNNING",
-        "comment": "",
+        "comment": "enum emoteType {EMOTE_TYPE_ALL = -1, EMOTE_TYPE_REACT = 0, EMOTE_TYPE_ACTION = 1, EMOTE_TYPE_TAUNT = 2, EMOTE_TYPE_GREET = 3, EMOTE_TYPE_TWIRL_GUN = 4, EMOTE_TYPE_DANCE_FLOOR = 5}",
         "params": [
             {
                 "type": "Ped",
                 "name": "ped"
             },
             {
-                "type": "Any",
-                "name": "p1"
+                "type": "int",
+                "name": "emoteType"
             }
         ],
         "return_type": "BOOL",
